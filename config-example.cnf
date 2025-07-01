@@ -1,0 +1,18 @@
+[nextcloud]
+server_url = https://nc.XYZ.de
+access_key = admin
+access_secret = XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+ready_endpoint = ocs/v2.php/cloud/apps/integration_openproject
+max_retries = 3
+enable_navigation = true
+enable_unified_search = true
+enable_project_folder = true
+enable_app_password = false
+
+[openproject]
+server_url = https://op.XYZ.de
+access_key = api
+access_secret = XXXXXXXXXXXXXXXXXXX
+ready_endpoint = api/v3
+storage_name = Nextcloud
+max_retries = 5
